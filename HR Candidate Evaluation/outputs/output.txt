@@ -1,0 +1,74 @@
+############/upload_candidate_resume##########
+
+{
+    "candidate_id": 1,
+    "file_name": "6f39dd6f-0de3-42e2-924f-a1d4deb1dcdc_Sample_CV.pdf",
+    "skills": {
+        "skills": [
+            "Python",
+            "JavaScript",
+            "HTML/CSS",
+            "React",
+            "Node.js",
+            "SQL",
+            "Git/GitHub"
+        ]
+    },
+    "bg_verification": {
+        "status": true,
+        "risk_score": null,
+        "education_verified": true,
+        "employment_verified": false,
+        "identity_verified": false,
+        "remarks": "Potential risk due to mismatching of permanent and current addresses. Discrepancies found in education details."
+    }
+}
+
+###################/upload_job_description##############
+{
+    "jd_id": 1,
+    "file_name": "ef25edd9-8ebd-43bc-b27f-a12733a83251_Sample_Job_Description.pdf",
+    "skills": {
+        "skills": [
+            "SQL",
+            "Python scripting",
+            "ETL tools (Airflow, DBT, Talend, SSIS)",
+            "Data modeling (Star schema, Snowflake schema)",
+            "Cloud services: AWS S3, Glue, Redshift; Azure Data Factory, Synapse GCP BigQuery, Dataflow",
+            "Version control - Git/GitHub",
+            "Understanding of data warehouses and data lakes",
+            "Pipeline orchestration knowledge",
+            "Large Language Models (LLMs) expertise: GPT, LLaMA, Claude, Gemini integration experience",
+            "Embedding models familiarity with Qdrant, Pinecone, Weaviate and ChromaDB",
+            "Integration of LLM APIs from OpenAI, HuggingFace, Cohere",
+            "Rag (Retrieval -Augmented Generation) workflow experience"
+        ]
+    }
+}
+
+##############/evaluate_candidate############
+{
+    "candidate_id": 1,
+    "jd_id": 1,
+    "evaluation": {
+        "matched_skills": [
+            "SQL"
+        ],
+        "missing_skills": [
+            "Version control - Git/GitHub",
+            "Data modeling (Star schema, Snowflake schema)",
+            "Large Language Models (LLMs) expertise: GPT, LLaMA, Claude, Gemini integration experience",
+            "Understanding of data warehouses and data lakes",
+            "Python scripting",
+            "Integration of LLM APIs from OpenAI, HuggingFace, Cohere",
+            "ETL tools (Airflow, DBT, Talend, SSIS)",
+            "Embedding models familiarity with Qdrant, Pinecone, Weaviate and ChromaDB",
+            "Cloud services: AWS S3, Glue, Redshift; Azure Data Factory, Synapse GCP BigQuery, Dataflow",
+            "Pipeline orchestration knowledge",
+            "Rag (Retrieval -Augmented Generation) workflow experience"
+        ],
+        "match_percentage": 8
+    }
+}
+
+
