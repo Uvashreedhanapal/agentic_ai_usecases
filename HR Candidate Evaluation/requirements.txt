@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+psycopg2-binary
+PyPDF2
+ollama
+python-multipart
